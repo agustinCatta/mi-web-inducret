@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina web HTML TP 2</title>
+
+<body>
+    <header> <img
+        src="Logo inducret.jpg", alt="Logo Inducret", width="100", height="100", loading="lazy">
+    <h1><b>Inducret Hormigon Elaborado S.A.S</b></h1>
+        <p><b>En este sitio podras completar informacion para tu legajo:</b></p>
+        <nav>
+        <ul>
+            <li><a href="index.html"> Inicio</a> </li>
+            <li><a href="datos_personales.html">Datos personales</a> </li>
+            <li> <a href="datos_de_contacto.html"> Datos de contacto </a>></li>
+            <li> <a href="datos_de_familiares"> Datos familiares </a></li>
+        </ul>
+        </nav>
+    </header>
+    <hr>
+    <h2>Completa cada formulario que se presenta <span class="Cursiva"> con la informacion solicitada </span></h2>    
+        <p>Para ello lee atentamente y te dejo unos tips antes de empezar:</p>    
+         <ol>
+            <li>Tene toda la documentacion cerca</li>
+            <li> Presta atencion a lo solicitado</li>
+            <li> Ten en cuenta buscar tener buena iluminacion para las fotos</il>
+            <li> Ante cualquier duda consulta con R.R.H.H.</li>
+        </ol>
+    </hr>
+     <hr>
+     <h3>
+         Video institucional:</h3>
+            <video src="YTDown.com_YouTube_Inducret-Hormigon-elaborado_Media_Ug_BV8mtPjw_001_1080p.mp4" width="640" height="360" controls>
+            Tu navegador no soporta el formato de video.
+        </video>
+        <audio controls> 
+            <source src="Video Project 1.m4a" type="audio/mpeg">
+        </audio>
+    </hr>
+    <p><b>Podras encontrarnos en:</b></p>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.194158193274!2d-68.85003242530748!3d-32.99865627451555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0b242da5b1cf%3A0x82bcaa091ec9d096!2sINDUCRET%20Hormigon%20Elaborado!5e0!3m2!1ses-419!2sar!4v1776138240899!5m2!1ses-419!2sar" 
+    width="600" 
+    height="450" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"></iframe>"
+  
+<table border="1">
+  <tr>
+    <th colspan="2">Inducret Hormigon elaborado SAS</th>
+  </tr>
+  <tr>
+    <td>Empleamos desde</td>
+    <td>2026</td>
+  </tr>
+  <tr>
+    <td>empleados</td>
+    <td>25</td>
+  </tr>
+</table>
+
+<hr>
+
+<h4>Contacto</h4>
+
+<form onsubmit="alert('Formulario enviado con éxito (simulado)'); return false;">
+  <p>
+    Apellido: <br>
+    <input type="text" name="apellido" required>
+  </p>
+
+  <p>
+    Nombre: <br>
+    <input type="text" name="nombre" required>
+  </p>
+
+  <p>
+    Mail: <br>
+    <input type="email" name="correo" required>
+  </p>
+
+  <p>
+    Telefono: <br>
+    <input type="tel" name="telefono">
+  </p>
+
+  <p>
+    Motivo de contacto: <br>
+    <select name="motivo">
+      <option value="presupuesto">Presupuesto</option>
+      <option value="CV">Reclamo</option>
+      <option value="otro">Otro</option>
+    </select>
+  </p>
+
+  <p>
+    Mensaje: <br>
+    <textarea name="mensaje" rows="4" cols="30"></textarea>
+  </p>
+
+  <button type="submit">Enviar datos</button>
+</form>
+
+</body>
