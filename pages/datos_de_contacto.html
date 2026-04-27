@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina web para Altas de Empleados</title>
+    <h4>Contacto</h4>
+
+<form onsubmit="alert('Formulario enviado con éxito (simulado)'); return false;">
+  <p>
+    Apellido: <br>
+    <input type="text" name="apellido" required>
+  </p>
+
+  <p>
+    Nombre: <br>
+    <input type="text" name="nombre" required>
+  </p>
+
+  <p>
+    Mail: <br>
+    <input type="email" name="correo" required>
+  </p>
+
+  <p>
+    Telefono: <br>
+    <input type="tel" name="telefono">
+  </p>
+
+  <p>
+    Motivo de contacto: <br>
+    <select name="motivo">
+      <option value="presupuesto">Presupuesto</option>
+      <option value="CV">Reclamo</option>
+      <option value="otro">Otro</option>
+    </select>
+  </p>
+
+  <p>
+    Mensaje: <br>
+    <textarea name="mensaje" rows="4" cols="30"></textarea>
+  </p>
+
+  <button type="submit">Enviar datos</button>
+</form>

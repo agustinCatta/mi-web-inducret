@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <header>
+      <link rel="stylesheet" href="../style/style.css">
+      <img src="../asset/Logo inducret.jpg", alt="Logo Inducret", width="100", height="100", loading="lazy">
+    <h1><b>Inducret Hormigon Elaborado S.A.S</b></h1>
+      <nav class="navBar">
+        <ul>
+            <li><a href="../index.html"> Inicio</a> </li>
+            <li><a href="../pages/datos_personales.html">Datos personales</a> </li>
+            <li> <a href="../pages/datos_de_Domicilio.html"> Datos de domiclio </a></li>
+            <li> <a href="../pages/datos_familiares.html"> Datos de contacto</a></li>
+            <li> <a href="../pages/datos_familiares.html"> Datos familiares </a></li>
+            <li> <a href="../pages/documentos.html"> Documentos</a></li>
+        </ul>
+    </nav>
+</header>
+</head>
+<body>
+  <hr>
+    <h2> <title>Datos personales :</title><br> </h2>
+ </header>
+</hr>
+
+<form onsubmit="alert('Formulario enviado con éxito (simulado)'); return false;">
+  <p>
+    Apellido: <br>
+    <input type="text" name="apellido" required>
+  </p>
+
+  <p>
+    Nombre: <br>
+    <input type="text" name="nombre" required>
+  </p>
+<p>
+     Tipo de Documento:<br>
+    <select name="Tipo de Documento">
+      <option value="DNI">DNI</option>
+      <option value="DNI EXTRANJERO">DNI EXTRANJERO</option>
+      <option value="CDI">CDI</option>
+      <option value="LC">LC</option>
+    </select>
+  </p>
+  <p>
+    Numero de Documento <br>
+    <input type="number" name="DNI" required min="10">
+  </p>
+
+  <p>
+    CUIL: <br>
+    <input type="CUIL" name="CUIL" min="13">
+  </p>
+  <a href="datos_de_Domicilio.html">
+  <button type="button" class="btn-siguiente">
+    Siguiente paso
+  </button>
+</a> 
+</form>
+</body>
